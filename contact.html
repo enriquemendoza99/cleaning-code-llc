@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Cleaning Code LLC</title>
+<meta name="description" content="Get a free cleaning quote from Cleaning Code LLC. Call (505) 600-9570 or send a message.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="wordmark">Cleaning<span>Code</span></a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+15056009570" class="header-phone">(505) 600-9570</a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <div class="section-eyebrow">Contact</div>
+    <h1>Get a free quote.</h1>
+    <p>Tell us about the space and we'll get back to you with a price, usually the same day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-two">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-row">
+        <label for="service">Service needed</label>
+        <select id="service" name="service">
+          <option>Residential Cleaning</option>
+          <option>Commercial Cleaning</option>
+          <option>Move-In / Move-Out Cleaning</option>
+          <option>Deep & Seasonal Cleaning</option>
+          <option>Post-Construction Cleanup</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="address">City / Area</label>
+        <input type="text" id="address" name="address" placeholder="e.g. Rio Rancho, Albuquerque, Santa Fe">
+      </div>
+      <div class="form-row">
+        <label for="message">Tell us about the space</label>
+        <textarea id="message" name="message" rows="4" placeholder="Square footage, rooms, frequency you're looking for..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Request a Free Quote</button>
+    </form>
+
+    <div class="info-card">
+      <h3>Contact Details</h3>
+      <div class="info-line"><strong>Phone</strong> <a href="tel:+15056009570">(505) 600-9570</a></div>
+      <div class="info-line"><strong>Hours</strong> Mon&ndash;Sat: 6:00 AM &ndash; 7:00 PM<br>Sunday: Closed</div>
+      <div class="info-line"><strong>Service Area</strong> Rio Rancho, Albuquerque, Santa Fe &amp; surrounding areas</div>
+      <div class="info-line"><strong>Services</strong> Residential &amp; commercial cleaning</div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-wordmark">Cleaning Code</span>
+        <p class="footer-tag">Residential and commercial cleaning across Rio Rancho, Albuquerque, and Santa Fe.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service Areas</h4>
+        <ul>
+          <li><a href="service-areas.html">Rio Rancho</a></li>
+          <li><a href="service-areas.html">Albuquerque</a></li>
+          <li><a href="service-areas.html">Santa Fe</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+15056009570">(505) 600-9570</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Cleaning Code LLC. All rights reserved.</span>
+      <span>Mon&ndash;Sat: 6:00 AM &ndash; 7:00 PM &middot; Sunday: Closed</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
