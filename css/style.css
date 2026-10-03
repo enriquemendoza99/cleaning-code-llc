@@ -109,7 +109,7 @@ p { margin: 0 0 1em; max-width: 62ch; color: var(--ink-soft); }
   align-items: center;
 }
 .wordmark span { color: var(--clay); }
-.wordmark img { height: 72px; width: auto; display: block; }
+.wordmark img { height: 80px; width: auto; display: block; }
 
 /* Real photo frames — replaces the abstract sweep-art placeholder look */
 .photo-frame {
