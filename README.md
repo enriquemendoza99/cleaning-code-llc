@@ -20,9 +20,9 @@ A 6-page static site: Home, Services, Pricing, Service Areas, About, Contact.
 4. Under "Source," choose **Deploy from a branch**, select the **main** branch and **/ (root)** folder, then click **Save**.
 5. GitHub will give you a live URL, usually `https://<your-username>.github.io/<repo-name>/`, within a minute or two.
 
-## Adding a custom domain (optional, still free hosting)
+## Adding a custom domain 
 
-1. Buy a domain from any registrar (Namecheap, Google Domains, etc. — typically $10-15/year).
+1. Buy a domain in https://sso.godaddy.com/?app=account&path=%2Fmyrenewalsapi%2Fv1%2Fredirects%2Flogin.
 2. In the registrar's DNS settings, add a CNAME record pointing to `<your-username>.github.io`.
 3. In your repo's **Settings → Pages**, enter the custom domain and save.
 
