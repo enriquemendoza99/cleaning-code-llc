@@ -2,24 +2,6 @@
 
 A 6-page static site: Home, Services, Pricing, Service Areas, About, Contact.
 
-## Deploying to GitHub Pages (free)
-
-1. Create a new repository on GitHub (e.g. `cleaning-code-website`).
-2. Upload all files in this folder to the repo, keeping the same structure:
-   ```
-   index.html
-   about.html
-   services.html
-   pricing.html
-   service-areas.html
-   contact.html
-   css/style.css
-   images/
-   ```
-3. In the repo, go to **Settings → Pages**.
-4. Under "Source," choose **Deploy from a branch**, select the **main** branch and **/ (root)** folder, then click **Save**.
-5. GitHub will give you a live URL, usually `https://<your-username>.github.io/<repo-name>/`, within a minute or two.
-
 ## Adding a custom domain 
 
 1. Buy a domain in https://sso.godaddy.com/?app=account&path=%2Fmyrenewalsapi%2Fv1%2Fredirects%2Flogin.
